@@ -1,0 +1,33 @@
+.floating-chat-button {
+  position: fixed;
+  bottom: 80px;
+  right: 20px;
+  background-color: #f8f9fa;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  animation: bounce 2s infinite;
+  z-index: 1000;
+}
+
+.floating-chat-button img {
+  width: 30px;
+  height: 30px;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-15px);
+  }
+  60% {
+    transform: translateY(-10px);
+  }
+} 

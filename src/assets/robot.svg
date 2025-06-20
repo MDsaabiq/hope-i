@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 300" width="120" height="180">
+  <g>
+    <!-- Head -->
+    <ellipse cx="100" cy="70" rx="55" ry="45" fill="#f4f8fb" stroke="#222" stroke-width="4"/>
+    <!-- Face -->
+    <ellipse cx="100" cy="80" rx="35" ry="25" fill="#222"/>
+    <!-- Eyes -->
+    <ellipse cx="85" cy="80" rx="7" ry="7" fill="#00e6ff"/>
+    <ellipse cx="115" cy="80" rx="7" ry="7" fill="#00e6ff"/>
+    <!-- Antennas -->
+    <rect x="65" y="30" width="7" height="25" rx="3" fill="#b2f0ff"/>
+    <rect x="128" y="30" width="7" height="25" rx="3" fill="#b2f0ff"/>
+    <!-- Body -->
+    <rect x="60" y="120" width="80" height="60" rx="20" fill="#f4f8fb" stroke="#222" stroke-width="4"/>
+    <!-- Chest circle -->
+    <circle cx="100" cy="150" r="13" fill="#00e6ff" stroke="#222" stroke-width="2"/>
+    <!-- HOPE-I text -->
+    <text x="100" y="175" font-size="18" font-family="Arial, Helvetica, sans-serif" fill="#222" text-anchor="middle" font-weight="bold">HOPE-I</text>
+    <!-- Left Arm (waving) -->
+    <rect x="25" y="120" width="15" height="60" rx="8" fill="#f4f8fb" stroke="#222" stroke-width="4" transform="rotate(-25 32 150)"/>
+    <!-- Left Hand (waving) -->
+    <ellipse cx="20" cy="110" rx="10" ry="15" fill="#f4f8fb" stroke="#222" stroke-width="3"/>
+    <!-- Fingers -->
+    <rect x="10" y="95" width="3" height="15" rx="2" fill="#f4f8fb" stroke="#222" stroke-width="2"/>
+    <rect x="15" y="90" width="3" height="15" rx="2" fill="#f4f8fb" stroke="#222" stroke-width="2"/>
+    <rect x="20" y="88" width="3" height="15" rx="2" fill="#f4f8fb" stroke="#222" stroke-width="2"/>
+    <rect x="25" y="90" width="3" height="15" rx="2" fill="#f4f8fb" stroke="#222" stroke-width="2"/>
+    <rect x="30" y="95" width="3" height="15" rx="2" fill="#f4f8fb" stroke="#222" stroke-width="2"/>
+    <!-- Right Arm -->
+    <rect x="160" y="120" width="15" height="60" rx="8" fill="#f4f8fb" stroke="#222" stroke-width="4"/>
+    <!-- Right Hand -->
+    <ellipse cx="185" cy="180" rx="10" ry="15" fill="#f4f8fb" stroke="#222" stroke-width="3"/>
+    <!-- Body joints -->
+    <ellipse cx="60" cy="180" rx="10" ry="10" fill="#222"/>
+    <ellipse cx="140" cy="180" rx="10" ry="10" fill="#222"/>
+    <!-- Left Leg -->
+    <rect x="70" y="190" width="15" height="60" rx="8" fill="#f4f8fb" stroke="#222" stroke-width="4"/>
+    <!-- Right Leg -->
+    <rect x="115" y="190" width="15" height="60" rx="8" fill="#f4f8fb" stroke="#222" stroke-width="4"/>
+    <!-- Left Foot -->
+    <ellipse cx="77" cy="255" rx="18" ry="10" fill="#f4f8fb" stroke="#222" stroke-width="3"/>
+    <!-- Right Foot -->
+    <ellipse cx="123" cy="255" rx="18" ry="10" fill="#f4f8fb" stroke="#222" stroke-width="3"/>
+  </g>
+</svg> 
